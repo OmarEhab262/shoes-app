@@ -1,0 +1,345 @@
+{
+  "users": [
+    {
+      "email": "omar@gmail.com",
+      "password": "omar1234",
+      "name": "John Doe",
+      "isLogged": true,
+      "id": "1",
+      "cart": {
+        "5c985fdf-c324-4da7-8dd0-336d1f9a4b21": {
+          "id": "a19c",
+          "name": "Nike Dunk Low Retro",
+          "color": "#6C96A0",
+          "size": null,
+          "price": 79.99,
+          "imageUrl": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/62819db5-c5c6-4757-930b-9a305b2d628d/NIKE+DUNK+LOW+RETRO.png",
+          "quantity": 1
+        },
+        "ffa15fc0-a63a-4b4e-a0f1-132fd35b6480": {
+          "id": "a19c",
+          "name": "Nike Dunk Low Retro",
+          "color": "#EB7B32",
+          "size": null,
+          "price": 79.99,
+          "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a5b932f4-0449-440a-9fe6-9a4d2e43ed8e/NIKE+DUNK+LOW+RETRO.png",
+          "quantity": 1
+        },
+        "631358c9-e5fa-44fc-9e4a-8c244235e3f0": {
+          "id": "a19c",
+          "name": "Nike Dunk Low Retro",
+          "color": "#213374",
+          "size": null,
+          "price": 79.99,
+          "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6b0e56a7-3f23-4943-9aeb-b56ee221d4b0/NIKE+DUNK+LOW+RETRO.png",
+          "quantity": 1
+        },
+        "6aedd073-491d-468f-bd09-a51fc2cae3ca": {
+          "id": "b25a",
+          "name": "Nike Dunk Low Retro",
+          "color": "Black",
+          "size": null,
+          "price": 149.99,
+          "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1bcbca4-e853-4df7-b329-5be3c61ee057/NIKE+DUNK+LOW+RETRO.png",
+          "quantity": 1
+        },
+        "a38de47c-e96b-4cdb-b6ae-0f404b273844": {
+          "id": "dfa5",
+          "name": "Nike Air Max 270",
+          "color": "#FA72BA",
+          "size": null,
+          "price": 80,
+          "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0e04b89f-270c-42e6-9c76-c972d2fe003c/NIKE+AIR+MAX+270+%28TD%29.png",
+          "quantity": 1
+        }
+      },
+      "favorites": {}
+    },
+    {
+      "id": "2",
+      "name": "John Doe2",
+      "email": "omar2@gmail.com",
+      "password": "omar12345",
+      "cart": {
+        "32ee084c-b540-4da1-9320-6e7badea285e": {
+          "id": "a19c",
+          "name": "Nike Dunk Low Retro",
+          "color": "#6C96A0",
+          "size": null,
+          "price": 79.99,
+          "imageUrl": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/62819db5-c5c6-4757-930b-9a305b2d628d/NIKE+DUNK+LOW+RETRO.png",
+          "quantity": 3
+        }
+      },
+      "favorites": {
+        "cbbacfc3-83ee-439f-8a19-1625039b287f": {
+          "id": "a19c",
+          "name": "Nike Dunk Low Retro",
+          "color": "#EB7B32",
+          "size": null,
+          "price": 79.99,
+          "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a5b932f4-0449-440a-9fe6-9a4d2e43ed8e/NIKE+DUNK+LOW+RETRO.png"
+        }
+      }
+    },
+    {
+      "id": "dd079ad3-906b-46e8-a21d-a87c6311a0c8",
+      "name": "nice",
+      "email": "nice@gmial.com",
+      "password": "omar1234"
+    }
+  ],
+  "products": [
+    {
+      "name": "Nike Dunk Low Retro",
+      "color": {
+        "Black": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1bcbca4-e853-4df7-b329-5be3c61ee057/NIKE+DUNK+LOW+RETRO.png",
+        "White": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/d01ef37b-c14a-4edd-8787-534f5732294c/NIKE+DUNK+LOW+RETRO.png"
+      },
+      "price": 149.99,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis, accusamus quasi voluptate distinctio suscipit ullam! Facere nulla alias incidunt.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/d01ef37b-c14a-4edd-8787-534f5732294c/NIKE+DUNK+LOW+RETRO.png",
+      "id": "b25a",
+      "sizes": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "reviews": 1,
+      "type": "man"
+    },
+    {
+      "name": "Nike Dunk Low Retro",
+      "color": {
+        "#6C96A0": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/62819db5-c5c6-4757-930b-9a305b2d628d/NIKE+DUNK+LOW+RETRO.png",
+        "#5B274F": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/62706490-bfa9-4227-b87c-6d95964fdc36/NIKE+DUNK+LOW+RETRO.png",
+        "#213374": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6b0e56a7-3f23-4943-9aeb-b56ee221d4b0/NIKE+DUNK+LOW+RETRO.png",
+        "#EB7B32": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a5b932f4-0449-440a-9fe6-9a4d2e43ed8e/NIKE+DUNK+LOW+RETRO.png"
+      },
+      "price": 79.99,
+      "description": "Comfortable and elegant ballet flats.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/62819db5-c5c6-4757-930b-9a305b2d628d/NIKE+DUNK+LOW+RETRO.png",
+      "id": "a19c",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "reviews": 5,
+      "type": "man"
+    },
+    {
+      "name": "Nike Dunk Low SE",
+      "color": {
+        "#009EB7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fefeddda-7659-4259-84fa-295e2ed1017d/NIKE+DUNK+LOW+SE.png",
+        "#00664B": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7f9d51b3-b45d-4083-a633-5cc68ecf789b/NIKE+DUNK+LOW+SE.png"
+      },
+      "price": 125,
+      "description": "Lightweight sandals for summer.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fefeddda-7659-4259-84fa-295e2ed1017d/NIKE+DUNK+LOW+SE.png",
+      "id": "e6cc",
+      "sizes": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "reviews": 4,
+      "type": "man"
+    },
+    {
+      "name": "Nike Zoom Vomero 5",
+      "color": {
+        "#EC3D62": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f88abf67-88ea-4f1a-a4bb-5f648e5a741e/NIKE+ZOOM+VOMERO+5.png",
+        "#77595F": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aa722273-9564-42c6-8143-a1d086ef16b6/NIKE+ZOOM+VOMERO+5.png",
+        "#BA6700": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9af19a8c-799e-42a1-8cab-ba85b57cf9ac/NIKE+ZOOM+VOMERO+5.png",
+        "#A49269": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/caab5214-9db2-4e9f-b166-6f5c8ee13c13/NIKE+ZOOM+VOMERO+5+NBHD.png",
+        "#819A77": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/48b54e7d-3745-4e5b-986c-17284add731b/NIKE+ZOOM+VOMERO+5.png",
+        "#BDBAB8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c439dab9-d549-4a05-a752-618139bca22f/NIKE+ZOOM+VOMERO+5.png",
+        "#1E1E1E": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/305a75c4-b498-4d8c-a52d-0781dac1c0af/NIKE+ZOOM+VOMERO+5.png"
+      },
+      "price": 160,
+      "description": "Breathable sneakers perfect for summer activities.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f88abf67-88ea-4f1a-a4bb-5f648e5a741e/NIKE+ZOOM+VOMERO+5.png",
+      "id": "ek6cc",
+      "sizes": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "reviews": 3,
+      "type": "woman"
+    },
+    {
+      "name": "Nike Free Metcon 6",
+      "color": {
+        "#C8B6B9": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b319356-ada6-4ada-892b-dd66e9dca06e/W+NIKE+FREE+METCON+6.png",
+        "#CE0D3D": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0253ddf8-0860-49c6-96d6-baabbc4c4740/W+NIKE+FREE+METCON+6.png",
+        "#CFC6B3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d9ca5e94-0b9e-42a9-95bd-271c5e45f92b/W+NIKE+FREE+METCON+6.png",
+        "#04337C": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1ff4f775-2b9e-4974-91a4-ca08304cad13/W+NIKE+FREE+METCON+6.png",
+        "#2B2B2B": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5d7f3cdb-8f2c-465d-b529-1dfd19abb621/W+NIKE+FREE+METCON+6.png"
+      },
+      "price": 150,
+      "description": "Stylish and comfortable sneakers with Air Max cushioning.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b319356-ada6-4ada-892b-dd66e9dca06e/W+NIKE+FREE+METCON+6.png",
+      "id": "f1ab",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "reviews": 4,
+      "type": "woman"
+    },
+    {
+      "name": "Nike Dunk Low",
+      "color": {
+        "#AD7A6B": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a447e0eb-b47c-464b-91df-5387f958582d/W+NIKE+DUNK+LOW.png",
+        "#4E2E20": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f36d4e1f-127b-450e-95c8-606e5b57b2fa/W+NIKE+DUNK+LOW.png",
+        "#1B1A1D": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/af53d53d-561f-450a-a483-70a7ceee380f/W+NIKE+DUNK+LOW.png"
+      },
+      "price": 115,
+      "description": "Flexible and lightweight running shoes for everyday wear.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a447e0eb-b47c-464b-91df-5387f958582d/W+NIKE+DUNK+LOW.png",
+      "id": "g2bc",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "reviews": 5,
+      "type": "woman"
+    },
+    {
+      "name": "Nike Air Force 1 Shadow",
+      "color": {
+        "#F1C1B1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f9affa5-8ee5-4cf6-8a2f-ae9245493c60/W+PEGASUS+PLUS.png",
+        "#C1D6D8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/658ae3f5-35c7-4718-96be-96a5d5836528/W+PEGASUS+PLUS.png",
+        "#FF6776": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9c7ff379-a69f-4dc5-a979-a6de2816d2a2/W+PEGASUS+PLUS.png",
+        "#DBD7CA": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/518885de-99f5-470a-830b-3125dfc61242/W+PEGASUS+PLUS.png"
+      },
+      "price": 110,
+      "description": "Classic Air Force 1 silhouette with a modern twist.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f9affa5-8ee5-4cf6-8a2f-ae9245493c60/W+PEGASUS+PLUS.png",
+      "id": "h3cd",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "reviews": 4,
+      "type": "woman"
+    },
+    {
+      "name": "Nike G.T. Jump 2 Electric",
+      "color": {
+        "#E7EAEE": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/359f5291-17c1-446c-8bb6-a152d817123b/NIKE+AIR+ZOOM+G.T.+JUMP+2.png",
+        "#7A94A5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b3491cba-428d-41bf-995b-5fddaae5c7b5/NIKE+AIR+ZOOM+G.T.+JUMP+2.png",
+        "#35403D": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4c6e1119-7309-40d5-919c-cc3ec814eced/NIKE+AIR+ZOOM+G.T.+JUMP+2.png",
+        "#795C63": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/44308fd3-999b-4a62-854a-6709ebadb131/NIKE+AIR+ZOOM+G.T.+JUMP+2.png",
+        "#A3A8AF": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/abb8771c-602f-48eb-ac4b-32861c97e0ee/NIKE+AIR+ZOOM+G.T.+JUMP+2+OLY.png"
+      },
+      "price": 180,
+      "description": "High-performance running shoes with React foam cushioning.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/359f5291-17c1-446c-8bb6-a152d817123b/NIKE+AIR+ZOOM+G.T.+JUMP+2.png",
+      "id": "i4de",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "reviews": 5,
+      "type": "man"
+    },
+    {
+      "name": "Nike Dunk Low",
+      "color": {
+        "#111111": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/78093c5f-19cf-4462-834c-a3e46de38386/NIKE+DUNK+LOW+%28TDE%29.png",
+        "#282A7E": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cd594013-dd14-4ccf-835a-36a742e3fb59/NIKE+DUNK+LOW+%28TDE%29.png",
+        "#EB3F83": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/607d9729-9923-4423-be3a-fa84fafcb610/NIKE+DUNK+LOW+%28TDE%29.png"
+      },
+      "price": 49.99,
+      "description": "Fun sneakers that light up with every step.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/78093c5f-19cf-4462-834c-a3e46de38386/NIKE+DUNK+LOW+%28TDE%29.png",
+      "id": "3425",
+      "sizes": [
+        "2C",
+        "3C",
+        "4C",
+        "5C",
+        "6C",
+        "7C",
+        "8C",
+        "9C",
+        "10C"
+      ],
+      "reviews": 3,
+      "type": "kids"
+    },
+    {
+      "name": "Nike Air Max 270",
+      "color": {
+        "#090909": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/18fe3087-de26-45b3-8a15-f5f2cc5b722a/NIKE+AIR+MAX+270+%28TD%29.png",
+        "#E3E3E3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/936d5c0d-629f-44a3-b71c-45dd85cb002a/NIKE+AIR+MAX+270+%28TD%29.png ",
+        "#BB59B4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dd96c2c5-4114-4b49-aafc-dd2d1831da3a/NIKE+AIR+MAX+270+%28TD%29.png",
+        "#005D9F": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6a081ce3-4911-4121-b548-bfec95c39f58/NIKE+AIR+MAX+270+%28TD%29.png",
+        "#FA72BA": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0e04b89f-270c-42e6-9c76-c972d2fe003c/NIKE+AIR+MAX+270+%28TD%29.png",
+        "#171F31": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e568bb9f-0f86-47e0-81fe-a5234adcffdd/NIKE+AIR+MAX+270+%28TD%29.png"
+      },
+      "price": 80,
+      "description": "Fun sneakers that light up with every step.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/18fe3087-de26-45b3-8a15-f5f2cc5b722a/NIKE+AIR+MAX+270+%28TD%29.png",
+      "id": "dfa5",
+      "sizes": [
+        "6C",
+        "7C",
+        "8C",
+        "9C",
+        "10C"
+      ],
+      "reviews": 3,
+      "type": "kids"
+    },
+    {
+      "name": "Nike Force 1 Low EasyOn",
+      "color": {
+        "#C9C9CB": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8fe34474-3c41-484a-a142-448cfc9a0389/FORCE+1+LOW+EASYON+%28TD%29.png",
+        "#282B2D": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5e8a7886-e852-437e-b064-eb70dac46831/FORCE+1+LOW+EASYON+%28TD%29.png",
+        "#F896C6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/df768113-717c-4e58-81b5-3ecc316e779c/FORCE+1+LOW+EASYON+%28TD%29.png",
+        "#035B3A": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/207f4164-8c46-4266-a15e-906709acdfa6/FORCE+1+LOW+EASYON+%28TD%29.png",
+        "#FF74CE": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/96f94cfd-a069-4505-8ba4-e30f3960fd00/FORCE+1+LOW+EASYON+%28TD%29.png",
+        "#DC8D00": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/173340d3-1698-4011-a13f-77404fe43a8a/FORCE+1+LOW+EASYON+%28TD%29.png",
+        "#72BEE3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3593eaf5-fae4-490c-9189-3d1eea0b4638/FORCE+1+LOW+EASYON+%28TD%29.png"
+      },
+      "price": 55,
+      "description": "Fun sneakers that light up with every step.",
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8fe34474-3c41-484a-a142-448cfc9a0389/FORCE+1+LOW+EASYON+%28TD%29.png",
+      "id": "fads5",
+      "sizes": [
+        "2C",
+        "3C",
+        "4C",
+        "5C",
+        "6C",
+        "7C",
+        "8C",
+        "9C",
+        "10C"
+      ],
+      "reviews": 3,
+      "type": "kids"
+    }
+  ]
+}
