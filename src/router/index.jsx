@@ -11,6 +11,13 @@ import ErrorHandler from "../components/errors/ErrorHandler";
 import SignUp from "../pages/SignUp";
 import Details from "../pages/Details";
 import Categories from "../pages/Categories";
+import AdminRoute from "../auth/AdminRoute";
+import DashboardLayout from "../pages/DashboardLayout";
+import DashboardHome from "../components/DashboardHome";
+import Inbox from "../pages/Inbox";
+import Users from "../pages/Users";
+import Products from "../pages/Products";
+import Editproduct from "../pages/Editproduct";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -41,6 +48,21 @@ const router = createBrowserRouter(
           }
         />
       </Route>
+      <Route
+        path="/dashboard"
+        element={
+          <AdminRoute redirectPath="/login">
+            <DashboardLayout />
+          </AdminRoute>
+        }
+      >
+        <Route index element={<DashboardHome />} />
+        <Route path="inbox" element={<Inbox />} />
+        <Route path="users" element={<Users />} />
+        <Route path="products" element={<Products />} />
+        <Route path="editproduct" element={<Editproduct />} />
+      </Route>
+
       <Route path="/login" element={<Login />} />
       <Route path="/signUp" element={<SignUp />} />
     </>

@@ -29,10 +29,10 @@ const ErrorHandler = ({ statusCode = 500, title = "Server Error" }) => {
             </svg>
           </div>
         </div>
-        <h2 className="mt-5 text-[36px] font-bold lg:text-[50px]">
+        <h2 className="mt-5 text-[36px] font-bold lg:text-[50px] text-black">
           {statusCode} - {title}
         </h2>
-        <p className="mt-5 lg:text-lg">
+        <p className="mt-5 lg:text-lg text-black">
           Oops something went wrong. Try to refresh this page or <br /> feel
           free to contact us if the problem presists.
         </p>

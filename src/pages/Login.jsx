@@ -24,6 +24,7 @@ const Login = () => {
     onSuccess: (user) => {
       if (user) {
         localStorage.setItem("isLogged", JSON.stringify(true));
+        localStorage.setItem("userName", user.name);
         const isLogged = JSON.parse(localStorage.getItem("isLogged"));
         dispatch(
           setUser({
@@ -37,7 +38,12 @@ const Login = () => {
         localStorage.setItem("userId", user.id);
         toast.success("User logged in successfully");
 
-        navigate("/");
+        // Redirect based on user role
+        if (user.name === "admin") {
+          navigate("/dashboard");
+        } else {
+          navigate("/");
+        }
       } else {
         toast.error("Incorrect email or password");
       }
